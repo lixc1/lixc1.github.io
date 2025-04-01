@@ -4,7 +4,7 @@ title: "Home"
 ---
 
 <div style="text-align:center;">
-  <img src="/assets/images/profile.jpg" alt="Your Name" style="border-radius:50%; max-width:250px;">
+  <img src="/assets/images/profile.jpg" alt="Xincheng Li" style="border-radius:50%; max-width:250px;">
 </div>
 
 ## Xincheng Li
