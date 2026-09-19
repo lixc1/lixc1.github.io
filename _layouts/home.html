@@ -30,7 +30,10 @@ layout: default
   <section id="ongoing-research" class="section" aria-labelledby="ongoing-research-title">
     <div class="section-heading"><div><p class="eyebrow">Current directions</p><h2 id="ongoing-research-title">Ongoing research</h2></div></div>
     <div class="ongoing-research-list">{% for topic in site.data.ongoing_research %}
-      <article class="ongoing-research-item"><h3>{{ topic.title | escape }}</h3><p>{{ topic.description | escape }}</p></article>
+      <details class="ongoing-research-item" name="ongoing-research">
+        <summary><h3>{{ topic.title | escape }}</h3><span class="research-toggle" aria-hidden="true"></span></summary>
+        <p>{{ topic.description | escape }}</p>
+      </details>
     {% endfor %}</div>
   </section>
   <section id="publications" class="section" aria-labelledby="publications-title">

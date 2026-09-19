@@ -1,3 +1,9 @@
+- title: Speed control for tracking
+  category: Research software
+  description: Code for feedback speed control in leader–follower tracking, accompanying my work on planar formation control.
+  link: https://github.com/LixcUSF/Speed_Control_for_Tracking
+  link_label: Explore the code
+  tags: Feedback control · Leader–follower systems · Robotics
 - title: Diffusion visualization
   category: Software
   description: A compact PyTorch experiment that makes the reverse diffusion process visible through a two-dimensional line-generation task.
@@ -7,8 +13,6 @@
 - title: Moving Frames at MathWorks
   category: Educational software
   description: Interactive MATLAB Live Script modules and animations introducing moving frames and natural Frenet frames for robotics, developed during my 2022 MathWorks internship.
+  link: https://www.mathworks.com/matlabcentral/fileexchange/125130-moving-frames
+  link_label: Explore the module
   tags: MATLAB · Differential geometry · Teaching
-- title: Virtual reality UAV interface
-  category: Robotics implementation
-  description: A virtual reality control interface developed with Team ARMIT, including synchronized dual-camera video streaming to an Oculus Rift headset and teleoperation of a 3D-printed gimbal.
-  tags: Unity · Virtual reality · Teleoperation
