@@ -27,7 +27,7 @@ def link(url, label): return f'<a href="{url}" color="#214b41">{label}</a>'
 
 p('Xincheng Li', 'title')
 p('Ph.D. in Electrical Engineering | Autonomous systems, human-robot interaction, control &amp; perception', 'meta')
-p('8233 Styers Ct, Laurel, MD 20723 | 443-251-9297<br/>' + link('mailto:lixc1sc@gmail.com', 'lixc1sc@gmail.com') + ' | ' + link('https://lixc1.github.io', 'lixc1.github.io'), 'meta')
+p('8233 Styers Ct, Laurel, MD 20723 | 443-251-9297<br/>' + link('mailto:xincheng@usf.edu', 'xincheng@usf.edu') + ' | ' + link('https://lixc1.github.io', 'lixc1.github.io'), 'meta')
 section('Professional Summary')
 p('Ph.D. in Electrical Engineering with interdisciplinary experience in motion control, robotics, and optimal trajectory generation for robotic systems modeled on Lie groups. Expertise in mathematical modeling, embedded systems, and control algorithm development. Proficient in MATLAB, Python, C++, and Simulink, with practical experience integrating software and hardware for teleoperated and autonomous systems. Research interests include intelligent robotic platforms that enable productive human-machine interaction and safety.')
 section('Current Appointment')
