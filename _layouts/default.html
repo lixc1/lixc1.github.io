@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title != 'Home' %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <meta name="theme-color" content="#173f38">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.title | escape }} — {{ page.title | escape }}">
+  <meta property="og:description" content="{{ site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Xincheng Li, home"><span class="monogram" aria-hidden="true">XL</span>{{ site.data.profile.name | escape }}</a>
+      <nav aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}#about">About</a>
+        <a href="{{ '/' | relative_url }}#research">Research</a>
+        <a href="{{ '/' | relative_url }}#publications">Publications</a>
+        <a href="{{ '/' | relative_url }}#projects">Projects</a>
+        <a href="{{ '/cv/' | relative_url }}"{% if page.title == 'CV' %} aria-current="page"{% endif %}>CV</a>
+        <a href="{{ '/' | relative_url }}#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">{{ content }}</main>
+  <footer class="site-footer container">
+    <span>{{ site.data.profile.name | escape }} <span class="footer-dot" aria-hidden="true">·</span> Robotics & control</span>
+    <span>Updated {{ site.data.profile.updated | escape }} <a href="#main">Back to top ↑</a></span>
+  </footer>
+</body>
+</html>
+

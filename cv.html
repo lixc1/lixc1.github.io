@@ -1,0 +1,19 @@
+---
+layout: default
+title: CV
+permalink: /cv/
+---
+<article class="container document-page">
+  <p class="eyebrow">Curriculum vitae</p><h1>{{ site.data.profile.name | escape }}</h1>
+  <p class="document-lead">{{ site.data.profile.role | escape }} · {{ site.data.profile.institution | escape }}</p>
+  <p><a href="mailto:{{ site.data.profile.email | escape }}">{{ site.data.profile.email | escape }}</a> · <a href="{{ site.data.profile.github | escape }}">GitHub</a> · <a href="{{ site.data.profile.linkedin | escape }}">LinkedIn</a></p>
+  {% if site.data.profile.cv_pdf != '' %}<p><a class="button" href="{{ site.data.profile.cv_pdf | relative_url }}" download>Download CV (PDF) ↓</a></p>{% endif %}
+  <p class="muted no-print">Selected academic record · {{ site.data.profile.updated | escape }}. This page is formatted for printing or saving as PDF from your browser.</p>
+  <section class="cv-section"><h2>Research appointment</h2><div class="cv-row"><span class="cv-date">Current</span><div><h3>Postdoctoral Scholar</h3><p>University of South Florida<br>Department of Mechanical and Aerospace Engineering<br>Working with Professor Udit Halder</p><a href="{{ site.data.profile.lab | escape }}">Research group profile ↗</a></div></div></section>
+  <section class="cv-section"><h2>Education</h2><div class="cv-row"><span class="cv-date">2025</span><div><h3>Ph.D., Electrical Engineering</h3><p>University of Maryland, College Park<br>Advisor: Professor P. S. Krishnaprasad</p><p>Dissertation: <a href="https://drum.lib.umd.edu/items/2ee17f28-6e62-4e84-ba28-a84cc08cba4a">Symmetry and Motion: Geometric Control of Human Agents</a></p></div></div></section>
+  <section class="cv-section"><h2>Research interests</h2><p>Geometric and optimal control; multi-agent coordination; human–robot interaction; equi-affine models of human motion; soft robotic grasping.</p></section>
+  <section class="cv-section"><h2>Selected publications</h2>{% include publications.html %}</section>
+  <section class="cv-section"><h2>Selected presentation</h2><div class="cv-row"><span class="cv-date">2023</span><div><h3>Geometry and Control for Human-Robot Interaction</h3><p>Maryland Robotics Center Research Symposium · May 25, 2023</p><a href="https://robotics.umd.edu/symposium2023">Symposium program ↗</a></div></div></section>
+  <section class="cv-section"><h2>Software</h2><h3>Diffusion visualization</h3><p>A PyTorch implementation and visualization of denoising diffusion in two dimensions.</p><a href="https://github.com/lixc1/Diffusion-Visualization">Source code ↗</a></section>
+</article>
+

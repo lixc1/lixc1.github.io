@@ -1,0 +1,12 @@
+<div class="publication-list">
+{% for paper in site.data.publications %}
+  <article class="publication">
+    <div class="publication-year">{{ paper.year }}</div>
+    <div><p class="publication-type">{{ paper.type | escape }}</p><h3>{{ paper.title | escape }}</h3><p class="authors">{{ paper.authors | escape }}</p><p class="venue">{{ paper.venue | escape }}</p><p class="paper-summary">{{ paper.summary | escape }}</p>
+      <div class="paper-links">{% for link in paper.links %}<a href="{{ link.url | escape }}">{{ link.label | escape }} <span aria-hidden="true">↗</span></a>{% endfor %}</div>
+      <details><summary>BibTeX<span class="sr-only"> for {{ paper.title | escape }}</span></summary><pre><code>{{ paper.bibtex | escape }}</code></pre></details>
+    </div>
+  </article>
+{% endfor %}
+</div>
+

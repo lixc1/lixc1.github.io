@@ -1,6 +1,15 @@
 title: Xincheng Li
-description: "Brief description of your research and projects"
-theme: jekyll-theme-minimal  # or any other GitHub Pages supported theme
-
-github_username: lixc1
-email: lixc1sc@gmail.com
+description: "Xincheng Li — geometric control, collective motion, and human–robot interaction."
+url: "https://lixc1.github.io"
+baseurl: ""
+lang: en
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - docs
+  - scripts
+  - vendor
+  - tmp

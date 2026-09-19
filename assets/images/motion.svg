@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="440" viewBox="0 0 440 440">
+  <defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#cbd3c8" stroke-width=".6"/></pattern><marker id="arrow" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#173f38" stroke-width="1"/></marker></defs>
+  <rect width="440" height="440" rx="8" fill="#e9ede3"/><rect x="28" y="28" width="384" height="384" fill="url(#grid)"/>
+  <g fill="none" stroke="#8b9e89" stroke-width="1"><ellipse cx="220" cy="220" rx="159" ry="83" transform="rotate(-40 220 220)"/><ellipse cx="220" cy="220" rx="159" ry="83" transform="rotate(-20 220 220)"/><ellipse cx="220" cy="220" rx="159" ry="83"/><ellipse cx="220" cy="220" rx="159" ry="83" transform="rotate(20 220 220)"/><ellipse cx="220" cy="220" rx="159" ry="83" transform="rotate(40 220 220)"/></g>
+  <path d="M64 259C84 354 253 377 337 244S298 68 184 119S126 311 260 287S369 159 310 122" fill="none" stroke="#173f38" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <g fill="#173f38" stroke="#e9ede3" stroke-width="4"><circle cx="64" cy="259" r="7"/><circle cx="337" cy="244" r="7"/><circle cx="184" cy="119" r="7"/><circle cx="260" cy="287" r="7"/></g>
+  <g stroke="#b3744c" stroke-width="1.5"><path d="M184 119L209 81M184 119L222 142M260 287L297 273M260 287L274 322"/></g>
+  <g fill="#50634f" font-family="Georgia,serif" font-style="italic" font-size="14"><text x="70" y="245">γ(t)</text><text x="215" y="80">e₁</text><text x="223" y="153">e₂</text></g>
+</svg>

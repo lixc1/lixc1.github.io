@@ -1,0 +1,10 @@
+- title: Geometric control
+  number: "01"
+  description: Lie groups, symmetry, and optimal control as tools for understanding and designing motion.
+- title: Collective motion
+  number: "02"
+  description: Feedback control and leader–follower coordination in multi-agent systems.
+- title: Human & robot movement
+  number: "03"
+  description: Equi-affine models of human motion and geometry-based approaches to soft robotic grasping.
+

@@ -1,0 +1,59 @@
+- title: On Feedback Speed Control for a Planar Tracking
+  authors: Xincheng Li, Tengyue Liu, Udit Halder
+  year: 2026
+  type: Journal article
+  venue: IEEE Control Systems Letters
+  summary: Speed regulation for leader–follower formations, with stability analysis and mobile-robot experiments.
+  links:
+    - label: Publisher
+      url: https://doi.org/10.1109/LCSYS.2026.3708578
+    - label: arXiv
+      url: https://arxiv.org/abs/2604.09795
+  bibtex: |
+    @article{li2026feedback,
+      title={On Feedback Speed Control for a Planar Tracking},
+      author={Li, Xincheng and Liu, Tengyue and Halder, Udit},
+      journal={IEEE Control Systems Letters},
+      year={2026},
+      doi={10.1109/LCSYS.2026.3708578}
+    }
+- title: Kinematics of continuum planar grasping
+  authors: Udit Halder, Nicolas Echeverria Zambrano, Xincheng Li
+  year: 2026
+  type: Accepted conference paper
+  venue: IEEE Conference on Decision and Control (CDC), accepted
+  summary: A geometric framework for shaping a soft continuum arm around an object and assessing grasp quality.
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2604.09800
+    - label: Acceptance record
+      url: https://sites.google.com/view/udithalder/publications
+  bibtex: |
+    @misc{halder2026kinematics,
+      title={Kinematics of continuum planar grasping},
+      author={Halder, Udit and Echeverria Zambrano, Nicolas and Li, Xincheng},
+      year={2026},
+      eprint={2604.09800},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      note={Accepted at IEEE CDC 2026},
+      url={https://arxiv.org/abs/2604.09800}
+    }
+- title: "Symmetry and Motion: Geometric Control of Human Agents"
+  authors: Xincheng Li
+  year: 2025
+  type: Doctoral dissertation
+  venue: University of Maryland, College Park
+  summary: Equi-affine geometry and optimal control for modeling human movement and coordinating interacting agents.
+  links:
+    - label: Dissertation record
+      url: https://drum.lib.umd.edu/items/2ee17f28-6e62-4e84-ba28-a84cc08cba4a
+  bibtex: |
+    @phdthesis{li2025symmetry,
+      title={Symmetry and Motion: Geometric Control of Human Agents},
+      author={Li, Xincheng},
+      school={University of Maryland, College Park},
+      year={2025},
+      doi={10.13016/rglm-vbqv}
+    }
+

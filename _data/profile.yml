@@ -1,0 +1,17 @@
+name: Xincheng Li
+role: Postdoctoral Scholar
+institution: University of South Florida
+department: Department of Mechanical and Aerospace Engineering
+email: lixc1sc@gmail.com
+github: https://github.com/lixc1
+linkedin: https://www.linkedin.com/in/xincheng-li-397b0263/
+lab: https://sites.google.com/view/udithalder/people
+advisor: Udit Halder
+tagline: Geometry, motion, and the control of robotic systems.
+intro: I study how geometry can help us understand and control movement, from coordinated groups of agents to robots that interact with people.
+bio:
+  - I am a Postdoctoral Scholar at the University of South Florida, working with Professor Udit Halder. My research connects geometric control, motion planning, and human–robot interaction, with recent work on collective motion and soft robotic grasping.
+  - I received my Ph.D. in Electrical Engineering from the University of Maryland, College Park in 2025, advised by Professor P. S. Krishnaprasad. My dissertation developed geometric models of human movement and control methods for interacting agents using Lie groups and equi-affine geometry.
+portrait: /assets/images/xincheng-li.png
+cv_pdf: /assets/files/CV_Xincheng_Li.pdf
+updated: September 2026
