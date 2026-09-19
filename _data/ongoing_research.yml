@@ -1,0 +1,6 @@
+- title: Estimation under limited sensing
+  description: I am developing state-estimation methods for leader–follower systems in which the follower does not have access to the leader’s instantaneous control. Using onboard relative measurements such as range and bearing, this work studies how unmeasured geometric states can be reconstructed and used for feedback control under limited sensing.
+- title: Learning-assisted geometric optimal control
+  description: I am exploring how neural networks can accelerate optimal control problems with known geometric structure. Rather than predicting an entire trajectory, the network predicts a small number of reduced quantities—such as initial costates or invariant parameters—from which the optimal motion can be generated through the underlying Lie–Poisson dynamics.
+- title: Geometric grasping on three-dimensional surfaces
+  description: I am extending geometry-based continuum grasping from planar objects to three-dimensional surfaces. The goal is to understand whether the geometry of an object can intrinsically define surface curves that maximize grasp quality for a prescribed arm length, recovering intuitive structures such as great circles on spheres and helical wraps around cylinders.

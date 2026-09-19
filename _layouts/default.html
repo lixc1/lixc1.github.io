@@ -3,14 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title != 'Home' %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+  {% if page.url == '/' %}{% assign document_title = site.homepage_title %}{% else %}{% capture document_title %}{{ page.title }} · {{ site.title }}{% endcapture %}{% endif %}
+  <title>{{ document_title | escape }}</title>
   <meta name="description" content="{{ site.description | escape }}">
   <meta name="theme-color" content="#173f38">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ site.title | escape }} — {{ page.title | escape }}">
+  <meta property="og:title" content="{{ document_title | escape }}">
   <meta property="og:description" content="{{ site.description | escape }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ site.data.profile.portrait | absolute_url }}">
+  <meta property="og:image:alt" content="Portrait of {{ site.data.profile.name | escape }}">
+  {% if page.url == '/' %}{% include person-schema.html %}{% endif %}
   <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
@@ -22,8 +26,9 @@
       <nav aria-label="Main navigation">
         <a href="{{ '/' | relative_url }}#about">About</a>
         <a href="{{ '/' | relative_url }}#research">Research</a>
+        <a href="{{ '/' | relative_url }}#ongoing-research">Ongoing research</a>
         <a href="{{ '/' | relative_url }}#publications">Publications</a>
-        <a href="{{ '/' | relative_url }}#projects">Projects</a>
+        <a href="{{ '/' | relative_url }}#projects">Software &amp; Projects</a>
         <a href="{{ '/cv/' | relative_url }}"{% if page.title == 'CV' %} aria-current="page"{% endif %}>CV</a>
         <a href="{{ '/' | relative_url }}#contact">Contact <span aria-hidden="true">↗</span></a>
       </nav>
@@ -36,4 +41,3 @@
   </footer>
 </body>
 </html>
-

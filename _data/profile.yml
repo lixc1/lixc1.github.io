@@ -7,6 +7,17 @@ github: https://github.com/lixc1
 contact_email: xincheng@usf.edu
 contact_github: https://github.com/LixcUSF
 linkedin: https://www.linkedin.com/in/xincheng-li-397b0263/
+orcid: https://orcid.org/0009-0004-3636-4460
+scholar: https://scholar.google.com/citations?user=qaGHO34AAAAJ&hl=en
+research_areas:
+  - Geometric control
+  - Robotics
+  - Optimal control
+  - Multi-agent systems
+  - Human–robot interaction
+  - State estimation under limited sensing
+  - Learning-assisted geometric optimal control
+  - Continuum grasping
 lab: https://sites.google.com/view/udithalder/people
 advisor: Udit Halder
 tagline: Geometry, motion, and the control of robotic systems.

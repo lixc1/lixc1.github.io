@@ -8,12 +8,16 @@ A custom, responsive Jekyll site for [lixc1.github.io](https://lixc1.github.io).
 | --- | --- |
 | `_data/profile.yml` | Bio, role, contact links, optional portrait and PDF CV, update date |
 | `_data/research.yml` | Research interests |
+| `_data/ongoing_research.yml` | Current research directions |
 | `_data/publications.yml` | Publications, statuses, links, summaries, and BibTeX |
-| `_data/projects.yml` | Research projects and software |
+| `_data/projects.yml` | Software, educational tools, and robotics implementations; public links are optional |
+| `_config.yml` | Site URL, homepage title, and search description |
 | `cv.html` | Appointment, education, and presentation details |
 | `assets/css/site.css` | Colors, typography, responsive and print styles |
 
 The homepage and CV share publication data. `publications.bib` is generated from the same records. Add publications in the order you want them displayed (newest first). Quote YAML values that contain colons. Prefer DOI, arXiv, and institutional repository links; label accepted papers accurately.
+
+The homepage includes ProfilePage/Person JSON-LD from `_includes/person-schema.html`. Identity links, affiliation, portrait, and research areas come from `_data/profile.yml`; keep those fields aligned with the visible profile. ORCID and Google Scholar links also appear in Contact.
 
 The supplied personal photo is stored at `assets/images/xincheng-li.png`. The updated three-page CV is at `assets/files/CV_Xincheng_Li.pdf`, with download links on the homepage and `/cv/`. Their paths are configured in `_data/profile.yml`. To revise and rebuild the PDF, edit `scripts/build_cv.py` and run it with Python and ReportLab installed. The `/cv/` page also provides a printable selected academic record.
 

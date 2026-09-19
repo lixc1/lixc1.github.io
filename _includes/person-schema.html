@@ -1,0 +1,29 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": {{ '/' | absolute_url | append: '#profile' | jsonify }},
+  "url": {{ '/' | absolute_url | jsonify }},
+  "mainEntity": {
+    "@type": "Person",
+    "@id": {{ '/' | absolute_url | append: '#person' | jsonify }},
+    "name": {{ site.data.profile.name | jsonify }},
+    "url": {{ '/' | absolute_url | jsonify }},
+    "image": {{ site.data.profile.portrait | absolute_url | jsonify }},
+    "description": {{ site.description | jsonify }},
+    "jobTitle": {{ site.data.profile.role | jsonify }},
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": {{ site.data.profile.institution | jsonify }}
+    },
+    "sameAs": [
+      {{ site.data.profile.orcid | jsonify }},
+      {{ site.data.profile.scholar | jsonify }},
+      {{ site.data.profile.contact_github | jsonify }},
+      {{ site.data.profile.github | jsonify }},
+      {{ site.data.profile.linkedin | jsonify }}
+    ],
+    "knowsAbout": {{ site.data.profile.research_areas | jsonify }}
+  }
+}
+</script>

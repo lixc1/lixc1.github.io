@@ -1,19 +1,14 @@
-- title: Planar formation control
-  category: Research
-  description: Coordinating leader–follower motion through feedback speed control, from mathematical analysis to robot experiments.
-  link: https://arxiv.org/abs/2604.09795
-  link_label: Read the research
-  tags: Geometric control · Multi-agent systems
-- title: Continuum grasping
-  category: Research
-  description: Modeling the relationship between an object's boundary and a soft arm to design grasping configurations.
-  link: https://arxiv.org/abs/2604.09800
-  link_label: Read the research
-  tags: Soft robotics · Optimal control
 - title: Diffusion visualization
   category: Software
   description: A compact PyTorch experiment that makes the reverse diffusion process visible through a two-dimensional line-generation task.
   link: https://github.com/lixc1/Diffusion-Visualization
   link_label: Explore the code
   tags: Python · PyTorch · Visualization
-
+- title: Moving Frames at MathWorks
+  category: Educational software
+  description: Interactive MATLAB Live Script modules and animations introducing moving frames and natural Frenet frames for robotics, developed during my 2022 MathWorks internship.
+  tags: MATLAB · Differential geometry · Teaching
+- title: Virtual reality UAV interface
+  category: Robotics implementation
+  description: A virtual reality control interface developed with Team ARMIT, including synchronized dual-camera video streaming to an Oculus Rift headset and teleoperation of a 3D-printed gimbal.
+  tags: Unity · Virtual reality · Teleoperation
