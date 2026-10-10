@@ -1,7 +1,7 @@
 - title: Speed control for tracking
   category: Research software
   description: Code for feedback speed control in leader–follower tracking, accompanying my work on planar formation control.
-  link: https://github.com/LixcUSF/Speed_Control_for_Tracking
+  link: https://github.com/HalderLab/cdc2026-Speed-Control
   link_label: Explore the code
   tags: Feedback control · Leader–follower systems · Robotics
 - title: Diffusion visualization
