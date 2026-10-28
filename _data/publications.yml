@@ -1,3 +1,23 @@
+- title: A bioinspired internal model-based online estimator for planar pursuit
+  authors: Tengyue Liu, Xincheng Li, Sofia Morales Ferreira, Kevin Galloway, Udit Halder
+  year: 2026
+  type: Preprint · Under review
+  venue: Submitted to IEEE International Conference on Robotics and Automation (ICRA); review pending
+  summary: An online estimator reconstructing unobserved relative states from partial sensory measurements and known self-motion, with moving-horizon optimization and robotic pursuit experiments.
+  links:
+    - label: arXiv
+      url: https://arxiv.org/abs/2609.25470
+  bibtex: |
+    @misc{liu2026bioinspired,
+      title={A bioinspired internal model-based online estimator for planar pursuit},
+      author={Liu, Tengyue and Li, Xincheng and Morales Ferreira, Sofia and Galloway, Kevin and Halder, Udit},
+      year={2026},
+      eprint={2609.25470},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      note={Submitted to IEEE ICRA; under review},
+      url={https://arxiv.org/abs/2609.25470}
+    }
 - title: On Feedback Speed Control for a Planar Tracking
   authors: Xincheng Li, Tengyue Liu, Udit Halder
   year: 2026
